@@ -1,4 +1,4 @@
-# Welcome to the Quarkiverse!
+# Welcome to Quarkiverse!
 
 Congratulations and thank you for creating a new Quarkus extension project in Quarkiverse!
 
