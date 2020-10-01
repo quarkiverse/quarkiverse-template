@@ -6,4 +6,8 @@ Feel free to replace this content with the proper description of your new projec
 
 You can find the basic info, Quarkiverse policies and conventions in [the Quarkiverse wiki](https://github.com/quarkiverse/quarkiverse/wiki).
 
+In case you need help creating a new Quarkus extension Maven project, please follow [this guide](https://quarkus.io/guides/building-my-first-extension).
+
+Other useful articles related to Quarkus extension development can be found under the [Writing Extensions](https://quarkus.io/guides/#writing-extensions) guide category on the [Quarkus.io](http://quarkus.io) website.
+
 Thanks again, good luck and have fun!
