@@ -9,11 +9,12 @@ You can find the basic info, Quarkiverse policies and conventions in [the Quarki
 Need to quickly create a new Quarkus extension Maven project? Just execute the command below replacing the template values with your preferred ones:
 ```
 mvn io.quarkus:quarkus-maven-plugin:<QUARKUS_VERSION>:create-extension -N \
-    -DgroupId=<EXTENSION_GROUP_ID> \ 
+    -DgroupId=io.quarkiverse.<REPO_NAME> \ 
     -DartifactId=<EXTENSION_ARTIFACT_ID> \  
     -Dversion=<INITIAL_VERSION> \ 
     -Dquarkus.nameBase="<EXTENSION_SIMPLE_NAME>"
 ```
+**IMPORTANT:** make sure your project uses [io.quarkiverse:quarkiverse-parent](https://github.com/quarkiverse/quarkiverse-parent) as the parent POM. It will make sure the release and artifact publishing plugins are properly configured for your project.
 
 In case you are creating a Quarkus extension project for the first time, please follow [Building My First Extension](https://quarkus.io/guides/building-my-first-extension) guide.
 
