@@ -23,6 +23,9 @@ Other useful articles related to Quarkus extension development can be found unde
 Thanks again, good luck and have fun!
 
 ## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
