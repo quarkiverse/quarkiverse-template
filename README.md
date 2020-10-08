@@ -22,7 +22,7 @@ Other useful articles related to Quarkus extension development can be found unde
 
 Thanks again, good luck and have fun!
 
-## Contributors
+## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
