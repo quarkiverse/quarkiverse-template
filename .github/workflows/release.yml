@@ -40,11 +40,11 @@ jobs:
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
           restore-keys: |
             ${{ runner.os }}-maven-
-            
+            https://github.com/quarkiverse/quarkiverse-template/blob/master/.github/workflows/release.yml
       - name: Configure Git author
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+        uses: oleksiyrudenko/gha-git-credentials@v1
+        with:
+          token: '${{ secrets.GITHUB_TOKEN }}'
 
       - name: maven release ${{steps.metadata.outputs.current-version}}
         run: |
