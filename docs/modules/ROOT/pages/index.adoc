@@ -1,18 +1,18 @@
-= Your Quarkiverse Extension
+= Your Quarkus Extension
 :extension-status: preview
 
 Describe what the extension does here.
 
 == Installation
 
-If you want to use this extension, you need to add the `quarkiverse-<YOUR_EXTENSION>` extension first.
+If you want to use this extension, you need to add the `quarkus-<YOUR_EXTENSION>` extension first.
 In your `pom.xml` file, add:
 
 [source,xml]
 ----
 <dependency>
     <groupId>io.quarkiverse</groupId>
-    <artifactId>quarkiverse-freemarker</artifactId>
+    <artifactId>quarkus-your-project</artifactId>
 </dependency>
 ----
 
