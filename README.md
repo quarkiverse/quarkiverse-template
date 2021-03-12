@@ -1,3 +1,5 @@
+**⚠ This project has been archived in favor of using the plugin below. See the thread for more details: https://groups.google.com/g/quarkus-dev/c/7D-mXOw-xc0/m/xFr0mb3OAQAJ ⚠**
+
 # Welcome to Quarkiverse!
 
 Congratulations and thank you for creating a new Quarkus extension project in Quarkiverse!
